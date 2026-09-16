@@ -1,0 +1,10 @@
+resource,route,type,description,source_url
+Public guide lookup,/api/agent,HTTP GET API,"Bounded read-only search or retrieval by short query or known slug",https://myfaceshapechart.com/api/agent
+Lookup health,/api/agent/health,HTTP GET API,"Read-only service health response",https://myfaceshapechart.com/api/agent/health
+OpenAPI document,/openapi.json,OpenAPI 3.1,"Machine-readable contract for the public guide lookup",https://myfaceshapechart.com/openapi.json
+API catalog,/.well-known/api-catalog,Discovery JSON,"Linkset for the public lookup API and documentation",https://myfaceshapechart.com/.well-known/api-catalog
+MCP server,/mcp,Streamable HTTP MCP,"Read-only site_lookup tool with initialize, tools/list, and tools/call lifecycle",https://myfaceshapechart.com/mcp
+MCP server card,/.well-known/mcp/server-card.json,Discovery JSON,"Machine-readable MCP server description",https://myfaceshapechart.com/.well-known/mcp/server-card.json
+Site lookup Skill,/ai/skills/site-lookup/SKILL.md,Skill Markdown,"Instructions for bounded public guide lookup",https://myfaceshapechart.com/ai/skills/site-lookup/SKILL.md
+Agent skill index,/.well-known/agent-skills/index.json,Discovery JSON,"Index and digest pointer for the site-lookup Skill",https://myfaceshapechart.com/.well-known/agent-skills/index.json
+AI catalog,/.well-known/ai-catalog.json,Discovery JSON,"Agent resource discovery entry for the site",https://myfaceshapechart.com/.well-known/ai-catalog.json

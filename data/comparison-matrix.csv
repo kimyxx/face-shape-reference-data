@@ -1,0 +1,8 @@
+pattern,face_length_vs_width,widest_or_even_line,jaw_signal,nearest_comparisons,decision_prompt,source_url
+Round,"Close to cheekbone width","Cheekbones may be widest","Soft half-moon curve","Square; Diamond","Does the lower outline curve rather than corner?",https://myfaceshapechart.com/face-shape-chart
+Square,"Close to the main horizontal widths","Forehead; cheekbones; jaw are close","Clear corners or a chiseled turn","Round; Oblong","Are the widths balanced and the jaw visibly angular?",https://myfaceshapechart.com/face-shape-chart
+Oval,"Longer than the main horizontal width","Upper widths are balanced","Smoother and narrower jaw","Oblong; Round","Is length dominant without the more even oblong profile?",https://myfaceshapechart.com/face-shape-chart
+Oblong,"Length clearly dominates","Horizontal widths stay relatively even","Jaw may remain strong","Oval; Rectangular","Does the long vertical read survive a width check?",https://myfaceshapechart.com/face-shape-chart
+Heart,"Length is usually above the main width","Forehead is widest","Jaw narrows toward a pointed chin","Diamond; Triangle","Is the forehead, rather than the cheekbones, the widest line?",https://myfaceshapechart.com/face-shape-chart
+Diamond,"Center length may be prominent","Cheekbones are widest","Forehead and jaw are narrower","Heart; Triangle","Are both the forehead and jaw narrower than the cheekbones?",https://myfaceshapechart.com/face-shape-chart
+Triangle,"Length is not the dominant clue","Jaw is widest and cheekbones follow","Lower outline carries more visual width","Pear; Heart","Is the jaw-first order clear rather than merely lower-face heavy?",https://myfaceshapechart.com/face-shape-chart

@@ -1,0 +1,11 @@
+fixture,primary,secondary,confidence_percent,face_ratio,forehead_ratio,jaw_ratio,jaw_angle_deg,status,notes,source_url
+01-oval.avif,Oval,Round,77,1.26,0.87,0.85,138,classified,"Historical fixture reference; not an accuracy claim.",https://myfaceshapechart.com/about
+02-round.avif,Round,Square,70,1.20,0.85,0.85,134,classified,"Historical fixture reference; not an accuracy claim.",https://myfaceshapechart.com/about
+03-square.avif,Square,Oval,72,1.23,0.86,0.87,133,classified,"Historical fixture reference; not an accuracy claim.",https://myfaceshapechart.com/about
+04-heart.avif,Oval,Round,80,1.27,0.86,0.84,141,classified,"Historical fixture reference; source label and classifier result are not the same thing.",https://myfaceshapechart.com/about
+05-diamond.avif,Oval,Round,82,1.28,0.86,0.85,139,classified,"Historical fixture reference; source label and classifier result are not the same thing.",https://myfaceshapechart.com/about
+06-oblong.jpg,Oval,Square,87,1.31,0.86,0.86,137,classified,"Historical fixture reference; source label and classifier result are not the same thing.",https://myfaceshapechart.com/about
+07-triangle.avif,Oval,Square,76,1.27,0.87,0.87,136,classified,"Historical fixture reference; source label and classifier result are not the same thing.",https://myfaceshapechart.com/about
+08-mixed-01-oval.avif,Oval,Round,77,1.26,0.87,0.85,138,classified,"Historical fixture reference; repeated regression sample.",https://myfaceshapechart.com/about
+09-mixed-02-square.avif,Square,Oval,72,1.23,0.86,0.87,133,classified,"Historical fixture reference; repeated regression sample.",https://myfaceshapechart.com/about
+10-mixed-03-oblong.jpg,Oval,Square,87,1.31,0.86,0.86,137,classified,"Historical fixture reference; repeated regression sample.",https://myfaceshapechart.com/about

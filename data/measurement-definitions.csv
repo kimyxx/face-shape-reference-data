@@ -1,0 +1,10 @@
+metric,type,label,formula,landmark_pairs,unit,notes,source_url
+H,raw,Face length,"d(10,152)","10-152",normalized coordinate distance,"Centerline length proxy from the upper face to the chin.",https://myfaceshapechart.com/face-shape-chart
+F,raw,Forehead width,"avg(d(54,284), d(103,332), d(21,251))","54-284;103-332;21-251",normalized coordinate distance,"Average of three horizontal forehead spans.",https://myfaceshapechart.com/face-shape-chart
+C,raw,Cheekbone width,"avg(d(234,454), d(93,323), d(137,366))","234-454;93-323;137-366",normalized coordinate distance,"Average of three horizontal cheekbone spans and the ratio denominator.",https://myfaceshapechart.com/face-shape-chart
+J,raw,Jaw width,"avg(d(172,397), d(58,288), d(215,435))","172-397;58-288;215-435",normalized coordinate distance,"Average of three horizontal jaw spans.",https://myfaceshapechart.com/face-shape-chart
+faceRatio,derived,Face ratio,"H / C","H;C",ratio,"Face length divided by cheekbone width.",https://myfaceshapechart.com/face-shape-chart
+foreheadRatio,derived,Forehead ratio,"F / C","F;C",ratio,"Forehead width divided by cheekbone width.",https://myfaceshapechart.com/face-shape-chart
+jawRatio,derived,Jaw ratio,"J / C","J;C",ratio,"Jaw width divided by cheekbone width.",https://myfaceshapechart.com/face-shape-chart
+widthVariance,derived,Width variance,"coefficientOfVariation([F,C,J])","F;C;J",ratio,"Coefficient of variation across the three horizontal widths.",https://myfaceshapechart.com/face-shape-chart
+jawAngle,derived,Jaw angle,"average(leftJawAngle, rightJawAngle)","172;397;234;454;152",degrees,"Mean jaw-corner angle used as a rounded-versus-angular signal.",https://myfaceshapechart.com/face-shape-chart

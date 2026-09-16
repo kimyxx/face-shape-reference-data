@@ -1,0 +1,13 @@
+{
+  "name": "face-shape-reference-data",
+  "version": "0.1.0",
+  "description": "Dependency-free reference data and a seven-label heuristic classifier for face-shape measurements.",
+  "type": "module",
+  "bin": {
+    "face-shape-reference": "./bin/face-shape-reference.mjs"
+  },
+  "scripts": {
+    "test": "node --test ./test/reference.test.mjs"
+  },
+  "license": "MIT"
+}
